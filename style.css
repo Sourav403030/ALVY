@@ -178,34 +178,6 @@ nav {
   font-weight: 300;
 }
 
-/* .between{
-    margin: 1.5rem 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 2.5rem;
-    flex-wrap: wrap;
-}
-
-
-.between h3{
-    font-size: 0.9rem;
-    font-family: lead-font;
-    text-transform: uppercase;
-    color: #7D7C7A;
-    font-weight: 300;
-    text-align: center;
-}
-
-.between h1{
-    font-family: chillax;
-    text-align: center;
-
-    font-size: 2.3rem;
-    color: white;
-    font-weight: 300;
-} */
-
 .between {
   margin: 1rem 2.5rem;
   display: grid;
