@@ -1,0 +1,521 @@
+@font-face {
+  font-family: lead-font;
+  src: url("./fonts/L0x5DF4xlVMF-BfR8bXMIjhLq3-cXbKD.woff2");
+}
+
+@font-face {
+  font-family: chillax;
+  src: url("./fonts/63cffc0a3942456e003bc265_Chillax-Regular.woff");
+}
+
+@font-face {
+  font-family: satoshi;
+  src: url("./fonts/63cffc20aa8997095067596f_Satoshi-Light.woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #121212;
+}
+
+main {
+  min-height: 100vh;
+  max-width: 1920px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+}
+
+.get-in-touch {
+  display: none;
+}
+
+.right-nav {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.right-nav h3 {
+  font-family: lead-font;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  background-color: #1e1e1e;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.5rem;
+}
+
+.left-nav {
+  padding-left: 1rem;
+}
+
+.right-nav i {
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: #1e1e1e;
+  border-radius: 0.5rem;
+}
+
+.right-nav span {
+  padding: 0.1rem 0.4rem;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  background-color: #cebd63;
+  color: black;
+}
+
+/* .right-nav h3:nth-child(1),h3:nth-child(2),h3:nth-child(3),h3:nth-child(4),h3:nth-child(5){
+    display: none;
+} */
+
+.right-nav h3:nth-child(1) {
+  display: none;
+}
+
+.right-nav h3:nth-child(2) {
+  display: none;
+}
+
+.right-nav h3:nth-child(3) {
+  display: none;
+}
+
+.right-nav h3:nth-child(4) {
+  display: none;
+}
+
+.right-nav h3:nth-child(5) {
+  display: none;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 1rem;
+  gap: 1rem;
+}
+
+.hero-img img {
+  width: 100%;
+  border-radius: 0.7rem;
+  object-fit: cover;
+}
+
+.hero-heading {
+  padding: 1rem;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 3.5rem;
+  border-radius: 0.7rem;
+}
+
+.hero-heading-top h3 {
+  font-family: lead-font;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.hero-heading-bottom h1 {
+  font-family: chillax;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+  font-size: 2.3rem;
+  line-height: 1.2;
+}
+
+.hero-heading-bottom h3 {
+  font-family: satoshi;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  color: #7d7c7a;
+  line-height: 1.5;
+}
+
+.hero-heading-button {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hero-heading-button i {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 1px solid gray;
+  border-radius: 50%;
+  color: white;
+  font-weight: 100;
+}
+
+.hero-heading-button h4 {
+  font-size: 1rem;
+  color: white;
+  font-family: lead-font;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+/* .between{
+    margin: 1.5rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+
+.between h3{
+    font-size: 0.9rem;
+    font-family: lead-font;
+    text-transform: uppercase;
+    color: #7D7C7A;
+    font-weight: 300;
+    text-align: center;
+}
+
+.between h1{
+    font-family: chillax;
+    text-align: center;
+
+    font-size: 2.3rem;
+    color: white;
+    font-weight: 300;
+} */
+
+.between {
+  margin: 1rem 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.clients h3 {
+  font-family: lead-font;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #7d7c7a;
+  text-transform: uppercase;
+}
+
+.clients h1 {
+  font-family: chillax;
+  font-size: 2.3rem;
+  color: white;
+  font-weight: 100;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 1rem;
+  gap: 1rem;
+}
+
+.second-img1 img {
+  width: 100%;
+  border-radius: 0.7rem;
+  object-fit: cover;
+}
+
+.second-text1 {
+  padding: 1rem;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 3.5rem;
+  border-radius: 0.7rem;
+}
+
+.second-text1-top h3 {
+  font-family: lead-font;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.second-text1-bottom h1 {
+  font-family: chillax;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.second-text1-bottom h3 {
+  font-family: satoshi;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #7d7c7a;
+  line-height: 1.8;
+}
+
+.second-img2 img {
+  width: 100%;
+  border-radius: 0.7rem;
+  object-fit: cover;
+}
+
+.second-text2 {
+  padding: 1rem;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 3.5rem;
+  border-radius: 0.7rem;
+}
+
+.second-text2-top h3 {
+  font-family: lead-font;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.second-text2-bottom h1 {
+  font-family: chillax;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.second-text2-bottom h3 {
+  font-family: satoshi;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #7d7c7a;
+  line-height: 1.8;
+}
+
+@media (min-width: 834px) {
+  .hero-heading-bottom h1 {
+    font-size: 3rem;
+  }
+
+  .hero-heading-bottom h3 {
+    font-size: 1.3rem;
+    width: 70%;
+  }
+
+  .hero-heading {
+    gap: 7rem;
+  }
+
+  .hero-heading-button {
+    margin-top: 3rem;
+  }
+
+  .clients h3 {
+    font-size: 1.2rem;
+  }
+
+  .clients h1 {
+    font-size: 3.5rem;
+  }
+
+  .get-in-touch {
+    display: block;
+    background-color: #cebd63 !important;
+    color: black !important;
+  }
+
+  .second-text1 {
+    gap: 5rem;
+  }
+
+  .second-text1-bottom h1 {
+    font-size: 3rem;
+  }
+
+  .second-text1-bottom h3 {
+    font-size: 1.2rem;
+  }
+
+  .second-text2 {
+    gap: 5rem;
+  }
+
+  .second-text2-bottom h1 {
+    font-size: 3rem;
+    width: 80%;
+  }
+
+  .second-text2-bottom h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1360px) {
+  .first {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hero-heading {
+    height: 100%;
+    padding: 3rem;
+  }
+
+  .hero-heading-bottom h1 {
+    font-size: 4rem;
+  }
+
+  .hero-heading-bottom h3 {
+    font-size: 1.3rem;
+    width: 90%;
+  }
+
+  .right-nav h3:nth-child(1) {
+    display: block;
+  }
+
+  .right-nav h3:nth-child(2) {
+    display: block;
+  }
+
+  .right-nav h3:nth-child(3) {
+    display: block;
+  }
+
+  .right-nav h3:nth-child(4) {
+    display: block;
+  }
+
+  .right-nav h3:nth-child(5) {
+    display: block;
+  }
+
+  .between {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-rows: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .right-nav i {
+    display: none;
+  }
+
+  .second-flex1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+
+  .second-flex1 {
+    margin-top: 8rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+
+  .second-text1 {
+    gap: 10.2rem;
+    width: 50%;
+  }
+
+  .second-img1 {
+    width: 50%;
+  }
+
+  .second-flex2 {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .second-text2 {
+    gap: 10.5rem;
+    width: 50%;
+  }
+
+  .second-img2 {
+    width: 50%;
+  }
+
+}
+
+@media (min-width: 1680px) {
+  .hero-heading {
+    gap: 17rem;
+  }
+
+  .second-text1{
+    gap: 20rem;
+  }
+
+  .second-text2{
+    gap: 20rem;
+  }
+
+}
+
+@media (min-width: 1920px) {
+  .hero-heading {
+    gap: 30rem;
+    padding: 3.8rem;
+  }
+  .second-text1{
+    gap: 26rem;
+  }
+
+  .second-text2{
+    gap: 28rem;
+  }
+
+  .second-text1-bottom h1{
+    width: 80%;
+  }
+
+  .second-text2-bottom h1{
+    width: 70%;
+  }
+
+  .second-text2-bottom h3{
+    font-size: 1.3rem;
+  }
+
+  .second-text1-bottom h3{
+    font-size: 1.3rem;
+  }
+}
