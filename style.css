@@ -322,6 +322,205 @@ nav {
   line-height: 1.8;
 }
 
+.third{
+
+    margin: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-heading h1{
+    font-family: chillax;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.member{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 8rem;
+    background-color: lightblue;
+    background-image: url("./assets/team1.webp");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.member-last{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 8rem;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.member-last img{
+    border-radius: 0.5rem;
+}
+
+.member-top{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.7rem;
+    padding: 2rem;
+    
+}
+
+.member-top h3{
+    padding: 0.7rem;
+    font-size: 1rem;
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.member-bottom{
+    display: flex;
+    margin-bottom: 1rem;
+    margin: 1em;
+    padding: 1rem 0.9rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(10px);
+}
+
+.member-bottom h1{
+    font-family: chillax;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.member-bottom h3{
+    font-family: lead-font;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.members-list .member:nth-child(2){
+    background-image: url("./assets/team2.webp");
+}
+
+.members-list .member:nth-child(3){
+    background-image: url("./assets/team3.webp");
+}
+
+
+.member img{
+    border-radius: 1rem;
+}
+
+.join-our-team{
+    background-color: #1e1e1e;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+    border-radius: 0.5rem;
+}
+
+.join-our-team h3{
+    font-family: lead-font;
+    text-transform: uppercase;
+    color: #7d7c7a;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.join-our-team-top{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.join-our-team h1{
+    font-family: chillax;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+}
+
+.join-our-team-bottom{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.join-our-team-bottom i{
+    color: white;
+    font-size: 1rem;
+    border: 1px solid gray;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.join-our-team-bottom h3{
+    color: white !important;
+    font-size: 0.9rem;
+}
+
+.contact{
+    background-color: #cebd63;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 0.5rem;
+}
+
+.contact h3{
+    font-family: lead-font;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.contact h1{
+    font-family: chillax;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.contact-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-bottom button{
+    padding:  1rem 2rem;
+    font-family: lead-font;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: 300;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 834px) {
   .hero-heading-bottom h1 {
     font-size: 3rem;
@@ -354,6 +553,20 @@ nav {
     color: black !important;
   }
 
+  .second-flex1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+  }
+
+  .second-flex2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+  }
+
   .second-text1 {
     gap: 5rem;
   }
@@ -378,7 +591,50 @@ nav {
   .second-text2-bottom h3 {
     font-size: 1.2rem;
   }
+
+  .third{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .members-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex-grow: 1;
+  }
+  .member{
+    gap: 10rem;
+    width: 48%;
+    border-radius: 1rem;
+  }
+
+  .third-heading h1{
+    font-size: 3rem;
+    padding: 2rem;
+  }
+
+  .join-our-team{
+    width: 100%;
+    gap: 10rem;
+    border-radius: 1rem;
+  }
+
+  .join-our-team h1{
+    width: 70%;
+    font-size: 3rem;
+  }
+
+  .contact h1{
+    font-size: 4rem;
+    width: 80%;
+    line-height: 1;
+  }
 }
+
+
+
 
 @media (min-width: 1360px) {
   .first {
@@ -465,7 +721,7 @@ nav {
   }
 
   .second-text2 {
-    gap: 10.5rem;
+    gap: 6.5rem;
     width: 50%;
   }
 
@@ -473,7 +729,65 @@ nav {
     width: 50%;
   }
 
+  .members-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .member{
+    width: 32%;
+  }
+
+  .third{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .member-last{
+    width: 40%;
+  }
+
+  .member-last img{
+    object-fit: cover;
+  }
+
+  .join-our-team{
+    width: 60%;
+    gap: 1.5rem;
+  }
+
+  .join-our-team h1{
+    font-size: 2.5rem;
+  }
+
+  .third-flex2{
+    display: flex;
+    gap: 1rem;
+  }
+
+  .contact-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .contact-bottom button{
+    padding: 1rem 1rem;
+  }
+
+
+
 }
+
+
+
+
+
+
+
 
 @media (min-width: 1680px) {
   .hero-heading {
@@ -518,4 +832,23 @@ nav {
   .second-text1-bottom h3{
     font-size: 1.3rem;
   }
+
+  .member{
+    gap: 20rem;
+  }
+
+  .join-our-team h1{
+    font-size: 4rem;
+  }
+
+  .contact-bottom{
+    justify-content: space-between;
+  }
+
+  .contact h1{
+    font-size: 4rem;
+    width: 40%;
+  }
+
+  
 }
